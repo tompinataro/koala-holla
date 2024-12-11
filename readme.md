@@ -13,9 +13,9 @@ Technologies
 * Express
 * SQL
 
-Client needs
+Database Needed
 ------------
-Koala Holla has provided a table of their current residents:
+Current Koala Residents:
 
 | id | name    | favorite_color | age | ready_to_transer | notes                            |
 |----|---------|--------|-----|------------------|----------------------------------|
@@ -30,11 +30,10 @@ They need the ability to add a Koala to the database. Make a form with the appro
 
 They need the ability for mark a Koala ready for transfer. Each koala in your UI needs a button in that reads 'Ready for Transfer'. When the user clicks on the button, it should update the database for the specific Koala. The 'Ready for Transfer' button should only appear for Koalas that haven't yet been marked ready for transfer.
 
-Delivery
---------
-Upon completion of the project you'll need to provide not only the source (via GitHub url), but also instructions on how the database table should be set up. This can be in a simple `database.sql` file in the repo.
 
-### STRETCH GOALS
+
+
+### EXTRA FEATURES
 
 1. Ability to delete a specific Koala from the database.  
 2. Confirmation dialog before deleting (research SweetAlert).
